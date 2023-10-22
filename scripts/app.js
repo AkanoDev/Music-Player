@@ -102,7 +102,7 @@ function asideFunction() {
   <div class="card-wrapper">
   <div class="card-top">
     <ion-icon name="chevron-down-outline"></ion-icon>
-    <a href="dashboard.html">
+    <a href="index.html">
     <ion-icon name="close-outline" class="menu-button">
     ></ion-icon></a>
   </div>
@@ -176,7 +176,7 @@ function myFunction() {
   
     <div class="favourites-header"> 
       <div class="favourites-title-header">
-        <a href="dashboard.html" id="target_link">
+        <a href="index.html" id="target_link">
         <ion-icon name="chevron-back-outline"></ion-icon>
         </a>
         <p>Favourites</p>
@@ -249,7 +249,7 @@ function myFunction2() {
   
     <div class="favourites-header"> 
       <div class="favourites-title-header">
-        <a href="dashboard.html" id="target_link">
+        <a href="index.html" id="target_link">
         <ion-icon name="chevron-back-outline"></ion-icon>
         </a>
         <p>Playlists</p>
@@ -305,7 +305,7 @@ function myFunction3() {
   
     <div class="favourites-header"> 
       <div class="favourites-title-header">
-        <a href="dashboard.html" id="target_link">
+        <a href="index.html" id="target_link">
         <ion-icon name="chevron-back-outline"></ion-icon>
         </a>
         <p>Recent</p>
