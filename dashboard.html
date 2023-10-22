@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles/dashboard.css" />
+    <link rel="stylesheet" href="styles/slider.css" />
+    <link rel="stylesheet" href="styles/navigation.css" />
+    <link rel="stylesheet" href="styles/musiccard.css" />
+    <link rel="stylesheet" href="styles/favourites.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c602ed2b3b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="main-dashboard">
+      <div class="left-content">
+        <header>
+          <div class="header-user">
+            <a href="dashboard.html"
+              ><ion-icon name="home-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="search-bar-container">
+            <input
+              type="search"
+              placeholder="Search songs, playlists, and artist"
+              class="search-bar"
+            />
+            <button type="search-submit">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+            <ion-icon name="mic-outline" class="mic-icon"></ion-icon>
+          </div>
+        </header>
+
+        <div class="main-content js-main-content">
+          <div class="dashboard-wrapper">
+            <div class="dashboard-left js-dashboard-left">
+              <ion-icon name="heart"></ion-icon>
+              <p>Favourites</p>
+            </div>
+            <div class="dashboard-middle js-dashboard-middle">
+              <ion-icon name="headset-outline"></ion-icon>
+              <p>Playlists</p>
+            </div>
+            <div class="dashboard-right js-dashboard-right">
+              <ion-icon name="time"></ion-icon>
+              <p>Recent</p>
+            </div>
+          </div>
+
+          <div class="menu-selection-container">
+            <div class="menu-songs active">Songs</div>
+            <div class="menu-artists">Artist</div>
+            <div class="menu-albums">Albums</div>
+            <div class="menu-folders">Folders</div>
+          </div>
+
+          <div class="music-option-container">
+            <div class="shuffle">
+              <ion-icon name="play-circle"></ion-icon>
+              <p>shuffle playback</p>
+            </div>
+            <div class="sort-select-music">
+              <ion-icon name="swap-vertical-outline"></ion-icon>
+              <ion-icon name="filter-outline"></ion-icon>
+            </div>
+          </div>
+          <!--HTML GENERATED USING OBJECT LIST-->
+          <div class="music-container js-music-container"></div>
+        </div>
+      </div>
+      <!--HTML GENERATED USING OBJECT LIST-->
+      <aside class="js-aside-container"></aside>
+    </section>
+
+    <footer>
+      <div class="music-playing-container">
+        <div class="left-footer-container">
+          <div class="image-playing-container">
+            <img src="images/music-cover.jpg" class="now-playing-image" />
+          </div>
+          <div class="title-playing-container">
+            <p>Back Number</p>
+            <p>Happy End</p>
+          </div>
+        </div>
+
+        <div class="middle-main-footer">
+          <div class="middle-footer-icons">
+            <ion-icon
+              name="repeat-outline"
+              class="footer-repeat-icon"
+            ></ion-icon>
+            <ion-icon name="play-skip-back" class="footer-back-icon"></ion-icon>
+            <ion-icon name="pause-circle" class="footer-pause-icon"></ion-icon>
+            <ion-icon
+              name="play-skip-forward"
+              class="footer-forward-icon"
+            ></ion-icon>
+            <ion-icon
+              name="shuffle-outline"
+              class="footer-shuffle-icon"
+            ></ion-icon>
+          </div>
+          <div class="footer-music-line"></div>
+        </div>
+
+        <div class="right-footer-icons">
+          <ion-icon name="document-text-outline"></ion-icon>
+          <ion-icon name="menu-outline"></ion-icon>
+          <ion-icon name="volume-medium-outline"></ion-icon>
+          <input type="range" name="" id="" />
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="scripts/app.js"></script>
+    <script src="functionality/additional.js"></script>
+  </body>
+</html>

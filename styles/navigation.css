@@ -1,0 +1,80 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #333333;
+}
+
+.header-user {
+  display: flex;
+  align-items: center;
+}
+
+.header-user span {
+  font-size: 22px;
+}
+
+.header-user ion-icon {
+  font-size: 32px;
+  color: #e8e8e8;
+  margin: 0 8px 0 0;
+}
+
+nav {
+  overflow: hidden;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin: 0 8px;
+}
+
+nav a {
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  color: #e8e8e8;
+}
+
+.search-bar-container {
+  position: relative;
+  width: 100%;
+  margin: 0 0 0 15px;
+}
+
+header input[type="search"] {
+  width: 100%;
+  padding: 10px 45px 10px 35px;
+  border-radius: 25px;
+  border: 1px solid #5c5c5c;
+}
+
+.search-bar::placeholder {
+  font-size: 14px;
+}
+
+header button[type="search-submit"] {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  font-size: 18px;
+  left: 10px;
+  top: 9px;
+  color: #5c5c5c;
+}
+
+header .mic-icon {
+  position: absolute;
+  font-size: 18px;
+  right: 15px;
+  top: 9px;
+  color: #5c5c5c;
+}

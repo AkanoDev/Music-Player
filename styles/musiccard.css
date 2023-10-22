@@ -1,0 +1,102 @@
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+  row-gap: 10px;
+  padding: 10px 18px 30px 18px;
+  border-radius: 8px;
+  background-color: #333333;
+  color: #e8e8e8;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 8px 0;
+}
+
+.card-top ion-icon {
+  font-size: 22px;
+  color: #e8e8e8;
+}
+
+.card-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.image-container {
+  transition: ease 0.15s;
+}
+
+.card-middle .card-music-title {
+  font-size: 15px;
+}
+
+.card-middle img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-middle .card-lyrics-container {
+  display: flex;
+  flex-direction: row;
+  margin: 3px 0 0 0;
+}
+
+.card-lyrics-container p {
+  font-size: 13px;
+}
+
+.isFilled {
+  color: #ff2b2b;
+}
+
+.iscolored {
+  color: red;
+}
+
+.card-middle .lyrics-button {
+  margin: 0 8px;
+  padding: 0 6px;
+  border-radius: 25px;
+  font-size: 12px;
+  border: solid 1px #e8e8e8;
+  color: #e8e8e8;
+  background-color: transparent;
+}
+
+.card-time-container .card-timeline {
+  width: auto;
+  height: 2.5px;
+  margin: 10px 0;
+  background-color: #e8e8e8;
+}
+
+.card-time-container .card-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-time {
+  margin: 3px 0 0 0;
+}
+.card-time .card-time-left,
+.card-time .card-time-right {
+  font-size: 12px;
+}
+
+.card-buttons-container {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0 22px 0;
+}
+
+.card-buttons-container ion-icon {
+  margin: 0 10px;
+  font-size: 28px;
+}
